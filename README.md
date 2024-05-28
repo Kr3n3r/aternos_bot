@@ -38,7 +38,7 @@
   <p align="center">
     (Telegram) bot to manage Aternos servers
     <br />
-    <a href="https://github.com/Kr3n3r/aternos_bot/tree/main/docs"><strong>Documentación »</strong></a>
+    <a href="https://github.com/Kr3n3r/aternos_bot/tree/main/docs"><strong>Documentation »</strong></a>
     <br />
     <br />
     <a href="https://github.com/Kr3n3r/aternos_bot/issues">Report Bug</a>
