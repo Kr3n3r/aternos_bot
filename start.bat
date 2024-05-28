@@ -22,9 +22,7 @@ python -m pip install -r requirements.txt
 cls
 color 2
 echo. & echo. & echo.
-echo the author of the bot @chepchek https://github.com/Chepchek
-echo.
-echo If you have any problems or suggestions: https://t.me/UserNotZFound
+echo the author of the bot @Kr3n3r https://github.com/Kr3n3r
 echo. & echo. & echo.
 timeout 10
 color F
