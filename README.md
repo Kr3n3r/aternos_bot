@@ -229,5 +229,5 @@ Project Link: [https://github.com/Kr3n3r/aternos_bot/](https://github.com/Kr3n3r
 [license-shield]: https://img.shields.io/github/license/Kr3n3r/atlas_bot.svg?style=for-the-badge
 [license-url]: https://github.com/Kr3n3r/atlas_bot/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/alejandro-mármol-romero-885376229
+[linkedin-url]: https://linkedin.com/in/alejandro-marmol-romero-885376229
 [product-screenshot]: TODO
