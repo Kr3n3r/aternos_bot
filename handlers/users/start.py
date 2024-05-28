@@ -12,5 +12,5 @@ start_router = Router(name=__name__)
 @start_router.message(CommandStart(), any_state)
 async def command_start_handler(message: types.Message, state: FSMContext):
     await state.clear()
-    await message.answer(_("Welcome, <b>{username}</b>").format(username=message.from_user.username),
+    await message.answer(_("Welcome, <b>{first_name} {last_name}(@{username})</b>").format(first_name=message.from_user.first_name, last_name=message.from_user.last_name, username=message.from_user.username),
                          reply_markup=get_kb_server_list())
