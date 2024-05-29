@@ -140,6 +140,12 @@ TODO
    start.bat
    ```
 
+You can also use the Docker image uploaded in public repository(https://hub.docker.com/repository/docker/kr3n3r/aternos_bot/general). Just run the following command
+   ```sh
+   docker run -it kr3n3r/aternos_bot:<version>
+   ```
+Images are only compatible with arm64v8 architectures(for RaspberryPI 5 purpose).
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
@@ -156,8 +162,8 @@ _For more examples, please refer to the [Documentation](https://github.com/Kr3n3
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Launch first version
-- [ ] Integrate with Docker
+- [x] Launch first version
+- [x] Integrate with Docker
 - [ ] Bug resolution: concurrent server actions
 - [ ] Integration with Discord / Whatsapp
 
