@@ -1,0 +1,21 @@
+services:
+  bot:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+      args:
+        # For local development
+        # - BASE_IMAGE=python:3.10-alpine
+        # For images compatibility with Raspberry PI
+        - BASE_IMAGE=arm64v8/python:3.10-alpine
+    image: bot:latest
+    environment:
+      - ADMIN=
+      - TELEGRAM_TOKEN=
+      - LOCALE=en
+      - ATERNOS_LOGIN=
+      - ATERNOS_PASS=
+      - ATERNOS_PASS_HASH=
+      - TZ=
+      # For example
+      # - TZ=Europe/Madrid

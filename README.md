@@ -144,7 +144,21 @@ You can also use the Docker image uploaded in public repository(https://hub.dock
    ```sh
    docker run -it kr3n3r/aternos_bot:<version>
    ```
-Images are only compatible with arm64v8 architectures(for RaspberryPI 5 purpose).
+Variables for build
+* BASE_IMAGE: Which image to use. See docker-compose.yml for more info.
+
+Variables for use
+* ADMIN: Telegram ID of users that can interact with bot
+* TELEGRAM_TOKEN: Telegram Token
+* LOCALE: possible values
+  * en
+  * ru
+* ATERNOS_LOGIN: user for Aternos
+* ATERNOS_PASS: password for Aternos
+* ATERNOS_PASS_HASH: hash password for Aternos
+* TZ: timezone for time displayed. For example, Europe/Madrid
+
+Images in registry are only compatible with arm64v8 architectures(for RaspberryPI 5 purpose).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
