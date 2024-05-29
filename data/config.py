@@ -1,7 +1,7 @@
 from environs import Env
 
 env = Env()
-env.read_env()
+env.read_env(override=False)
 
 TELEGRAM_TOKEN = env.str("TELEGRAM_TOKEN", None)  # BOT TOKEN
 ADMIN = env.list("ADMIN", [])  # TELEGRAM ID`S USERS FOR MANIPULATE YOUR`S SERVERS

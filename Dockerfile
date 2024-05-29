@@ -1,4 +1,6 @@
-FROM arm64v8/python:3.10-alpine
+ARG BASE_IMAGE
+
+FROM ${BASE_IMAGE}
 
 WORKDIR /app
 
