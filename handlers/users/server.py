@@ -21,13 +21,15 @@ server_manager_router = Router()
 def server_info_text(server: AternosServer) -> str:
     return _(
         "<b>Server info:</b>\n\n"
-        "<b>IP:</b> {address}\n"
+        "<b>IP:</b> {domain}\n"
+        "<b>Port:</b> {port}\n"
         "<b>Status:</b> {status}\n"
         "<b>Countdown:</b> {countdown}\n"
         "<b>Online:</b> {players_count}/{slots}\n"
         "<b>Server version:</b> {software} | {version}\n"
         "<b>RAM:</b> {ram}\n\n<b>Last info update (server time): {time}</b>").format(
-        address=server.address,
+        domain=server.domain,
+        port=server.port,
         countdown=timedelta(seconds=server.countdown) if server.countdown != -1 else "-",
         status=server.status.upper(),
         players_count=server.players_count,
